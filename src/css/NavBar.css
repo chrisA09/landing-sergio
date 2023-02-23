@@ -1,0 +1,25 @@
+.nav--container {
+  display: flex;
+  justify-content: space-between;
+
+  width: 75%;
+  height: 50px;
+
+  margin: 0 2em 0 2em;
+}
+.nav--left {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+/* phone.jsx */
+.phone--component {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.nav--right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

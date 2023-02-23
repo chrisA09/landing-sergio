@@ -1,0 +1,26 @@
+.hero {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+
+  outline: 1px dotted black;
+
+  width: 75%;
+  height: 90%;
+}
+.hero--left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  outline: 1px dotted black;
+
+  width: 50%;
+}
+.hero--right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 50%;
+}

@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+.full-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  width: 1440px;
+  outline: 1px solid black;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
+.hero--section {
+  width: 100%;
+  height: 70vh;
 
-.App-link {
-  color: #61dafb;
+  outline: dotted black 1px;
+
+  border-radius: 0 0 40px 40px;
+
+  background-color: #085352;
 }
+.cards--section {
+  display: flex;
+  gap: 5em;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  margin-top: 4em;
+}
+.quoteSeparator--section {
+  width: 100%;
+
+  outline: 1px dotted black;
+}
+.getSession--section {
+  width: 100%;
+
+  outline: 1px dotted black;
+  height: 60vh;
+
+  display: flex;
+}
+.getSession--right {
+  display: flex;
 }
