@@ -9,6 +9,8 @@ import QuoteSeparator from "./components/QuoteSeparator";
 import GetSessionIlustration from "./components/GetSessionIlustration";
 import GetSessionCard from "./components/GetSessionCard";
 import GetSessionSchedule from "./components/GetSessionSchedule";
+import Treatments from "./components/Treatments";
+import About from "./components/About";
 
 function App() {
   const [data, setData] = useState([
@@ -82,6 +84,12 @@ function App() {
               <GetSessionCard />
               <GetSessionSchedule />
             </div>
+          </div>
+          <div className="treatments--section">
+            <Treatments />
+          </div>
+          <div className="about--section">
+            <About />
           </div>
         </div>
       </div>

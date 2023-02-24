@@ -1,13 +1,20 @@
+.getSession--right {
+  width: 730px;
+  height: 480px;
+
+  display: grid;
+  grid-template-columns: 2em 0.5fr 0.5fr 2fr;
+  grid-template-rows: 0.5fr 1fr 1fr 1fr 1em;
+}
 /* Card */
 .getSessionCard--container {
-  height: 470px;
-  width: 340px;
-
   border-radius: 5px;
   outline: 1px solid black;
 
   display: flex;
   align-items: center;
+  grid-column: 1 / span 3;
+  grid-row: 1 / 5;
 }
 .getSessionCard--content {
   padding: 2em;
@@ -20,17 +27,17 @@
 /* schedule */
 .getSessionSchedule--container {
   outline: 1px solid black;
-
-  width: 720px;
-  height: 470px;
+  border-radius: 5px;
 
   display: flex;
   justify-content: flex-end;
+
+  grid-column: 2/6;
+  grid-row: 2 /6;
+
+  z-index: -1;
 }
 /* ilustration */
 .getSessionIlustration {
   outline: 1px dotted black;
-
-  height: 365px;
-  width: 640px;
 }
